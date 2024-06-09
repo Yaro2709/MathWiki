@@ -25,7 +25,7 @@
   "spellcheck": true,
   "rightToLeft": false,
   "showLineNumber": false,
-  "showInlineTitle": false,
+  "showInlineTitle": true,
   "focusNewTab": true,
   "userIgnoreFilters": [
     "X-rip/"
