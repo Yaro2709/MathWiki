@@ -1,0 +1,265 @@
+/*Темы*/
+/*настраиваем самостоятельно темную тему*/
+.theme-dark {
+    color-scheme: dark;
+    --highlight-mix-blend-mode: lighten;
+    --mono-rgb-0: 0, 0, 0;
+    --mono-rgb-100: 255, 255, 255;
+    --color-red-rgb: 251, 70, 76;
+    --color-red: #fb464c;
+    --color-orange-rgb: 233, 151, 63;
+    --color-orange: #e9973f;
+    --color-yellow-rgb: 224, 222, 113;
+    --color-yellow: #e0de71;
+    --color-green-rgb: 68, 207, 110;
+    --color-green: #44cf6e;
+    --color-cyan-rgb: 83, 223, 221;
+    --color-cyan: #53dfdd;
+    --color-blue-rgb: 2, 122, 255;
+    --color-blue: #027aff;
+    --color-purple-rgb: 168, 130, 255;
+    --color-purple: #a882ff;
+    --color-pink-rgb: 250, 153, 205;
+    --color-pink: #fa99cd;
+    --color-base-00: #1e2127;
+    --color-base-05: #1e2127;
+    --color-base-10: #28273d;
+    --color-base-20: #1e2127;
+    --color-base-25: #1e2127;
+    --color-base-30: #363636;
+    --color-base-35: #3f3f3f;
+    --color-base-40: #555555;
+    --color-base-50: #666666;
+    --color-base-60: #999999;
+    --color-base-70: #bababa;
+    --color-base-100: #dadada;
+    --color-accent-hsl: var(
+    --accent-h),
+			var(--accent-s),
+			var(--accent-l);
+    --color-accent: hsl(var(
+    --accent-h), var(--accent-s), var(--accent-l));
+    --color-accent-1: hsl(var(
+    --accent-h), var(--accent-s), calc(var(--accent-l) - 3.8%));
+    --color-accent-2: hsl(var(
+    --accent-h), var(--accent-s), calc(var(--accent-l) + 3.8%));
+    --background-modifier-form-field: var(
+    --color-base-25);
+    --background-secondary-alt: #1e2127;
+    --interactive-normal: #1e2127;
+    --interactive-hover: #1e2127;
+    --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+    --background-modifier-cover: rgba(10, 10, 10, 0.4);
+    --text-selection: hsla(var(
+    --interactive-accent-hsl), 0.25);
+    --input-shadow: inset 0 0.5px 0.5px 0.5px rgba(255, 255, 255, 0.09),
+		0 2px 4px 0 rgba(0,0,0,.15),
+		0 1px 1.5px 0 rgba(0,0,0,.1),
+		0 1px 2px 0 rgba(0,0,0,.2),
+		0 0 0 0 transparent;
+    --input-shadow-hover: inset 0 0.5px 1px 0.5px rgba(255, 255, 255, 0.16),
+		0 2px 3px 0 rgba(0,0,0,.3),
+		0 1px 1.5px 0 rgba(0,0,0,.2),
+		0 1px 2px 0 rgba(0,0,0,.4),
+		0 0 0 0 transparent;
+    --shadow-s: 0px 1px 2px rgba(0, 0, 0, 0.121),
+		0px 3.4px 6.7px rgba(0, 0, 0, 0.179),
+		0px 15px 30px rgba(0, 0, 0, 0.3);
+    --shadow-l: 0px 1.8px 7.3px rgba(0, 0, 0, 0.071),
+		0px 6.3px 24.7px rgba(0, 0, 0, 0.112),
+		0px 30px 90px rgba(0, 0, 0, 0.2);
+    --pdf-shadow: 0 0 0 1px var(
+    --background-modifier-border);
+    --pdf-thumbnail-shadow: 0 0 0 1px var(
+    --background-modifier-border);
+}
+
+/*Таблицы*/
+/*Заголовок у таблицы делаем жирным и по центру*/
+.markdown-rendered th {
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--text-normal);
+    text-align: center;
+}
+
+/*Списки*/
+/*Нумированный список делаем жирным и белым*/
+ol > li::marker, ul > li::marker, .cm-s-obsidian .cm-formatting-list {
+    color: var(--text-normal); /*var(--list-marker-color)*/
+    font-weight: 700;
+}
+/*Ненумированный список делаем белым*/
+.list-bullet:after {
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+/*Встраивание файлов*/
+/*убираем название файла в заголовке*/
+.markdown-embed-title, .embed-title {
+    font-size: 0px;
+    padding: 0 0 0 0;
+	display: none;
+	font-size: 1px;
+	color: rgba(0, 0, 0, 0);
+}
+/*убрать отступ справа*/
+.markdown-preview-view {
+    scrollbar-gutter: auto;
+}
+/*убираем филетовый отступ слева*/
+.markdown-embed {
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    margin: 0;
+    padding: 0;
+    /*bottom: -10px;*/
+}
+/*убираем отступ, который мешает при режиме чтенья*/
+.admonition {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*непонятное правило, которое добавляет новый отступ при режиме редактирования*/
+.is-live-preview .admonition-content:last-child {
+    margin-bottom: 0;
+}
+.admonition-parent {
+    /*margin-bottom: 20px;*/
+}
+/*убираем отступ*/
+.callout {
+    /*margin: 0em 0;*/ 
+}
+
+
+/*Колонки + информация*/
+/*при встраивание убиреам информацию о наследование*/
+.markdown-embed .callout[data-callout="info"]{
+    height: 0;
+	padding: 0;
+}
+/*дефолтно убираем отступ*/
+.callout[data-callout="info"]{
+	padding: 0;
+}
+/*Цвет*/
+.callout[data-callout="info"],
+.callout[data-callout="col"],
+.callout[data-callout="card"] {
+    background-color: rgba(0, 0, 0, 0); /*отключаем фон*/
+}
+.theme-dark {
+	.callout[data-callout="info"] .callout-title,
+	.callout[data-callout="col"] .callout-title,
+	.callout[data-callout="card"] .callout-title {
+		color: rgb(245,245,245); /*отключаем цвет*/
+	}
+}
+
+.callout[data-callout="info"] .callout-title,
+.callout[data-callout="col"] .callout-title,
+.callout[data-callout="card"] .callout-title {
+    color: rgb(0,0,0); /*отключаем цвет*/
+}
+
+/*Отступы*/
+.callout[data-callout="col"] .callout-title {
+    margin-bottom: 10px; /*отступ для главного текста*/
+}
+
+.callout[data-callout="card"] .callout-title {
+    margin-bottom: 0px; /*отступ обнуляем*/
+}
+
+.callout[data-callout="card"] {
+    margin: 0; /*убрать прыжки при переходе с чтенья на редактор*/
+}
+
+/*Формирование колонок*/
+.callout[data-callout="col"] .callout-content {
+    -webkit-column-count: 2; /*кол колонок*/
+	column-rule: 1px solid #7D5AFF; /*линия по центру*/
+	column-fill: balance;
+}
+
+.callout[data-callout="card"] .callout-content {
+    -webkit-column-count: auto;
+}
+
+/*для мобилок*/
+@media screen and (max-width: 1000px) {
+	.callout[data-callout="col"],
+	.callout[data-callout="card"] {
+		padding: 0;
+	}
+	
+	.callout[data-callout="card"] ul, 
+	.callout[data-callout="card"] ol {
+		padding-inline-start: 1.25em;
+	}
+}
+
+/*Картинки*/
+/*Цвет*/
+.callout[data-callout="imginvert"] {
+    background-color: rgba(0, 0, 0, 0); /*отключаем фон*/
+}
+
+.callout[data-callout="imginvert"] .callout-title {
+    color: rgb(245,245,245); /*отключаем цвет*/
+}
+
+.theme-light {
+	.callout[data-callout="imginvert"] img {
+		filter: invert(100%); /*инверсия цвета*/
+	}
+}
+
+/*инверсия картинки и налдписи*/
+.callout[data-callout="imginvert"]{
+	display:flex;
+    flex-direction: column-reverse;
+}
+/*центровка надписи*/
+.callout[data-callout="imginvert"] .callout-title {
+    justify-content: center;
+}
+/*цвет ндаписи*/
+.theme-dark {
+	.callout[data-callout="imginvert"] .callout-title-inner {
+		font-weight: 400;
+		color: rgb(255 255 255 / 80%);
+		font-style: italic;
+	}
+
+	.callout[data-callout="imginvert"] .callout-title {
+		color: rgb(255 255 255 / 80%);
+	}
+}
+
+.callout[data-callout="imginvert"] .callout-title-inner {
+    font-weight: 400;
+    color: rgb(0 0 0 / 80%);
+	font-style: italic;
+}
+
+.callout[data-callout="imginvert"] .callout-title {
+    color: rgb(0 0 0 / 80%);
+}
+
+/*инверсия мат формул*/
+.theme-light {
+	--color-base-100: #2f2f2f;
+	.math-block {
+		/*filter: invert(100%);*/
+	}
+}
+
+
+
+
+

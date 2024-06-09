@@ -1,0 +1,100 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Математика/Теория множеств\"",
+      "color": {
+        "a": 1,
+        "rgb": 15444992
+      }
+    },
+    {
+      "query": "path:\"Математика/Числовые системы\"",
+      "color": {
+        "a": 1,
+        "rgb": 10543186
+      }
+    },
+    {
+      "query": "path:Математика/Функции",
+      "color": {
+        "a": 1,
+        "rgb": 744616
+      }
+    },
+    {
+      "query": "path:\"Математика/Теория чисел\"",
+      "color": {
+        "a": 1,
+        "rgb": 15455031
+      }
+    },
+    {
+      "query": "path:Математика/Многочлены",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:Математика/Тригонометрия",
+      "color": {
+        "a": 1,
+        "rgb": 10048224
+      }
+    },
+    {
+      "query": "path:\"Информатика/4. Алгоритмы",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:\"Математика/Атомарные заметки/Теоремы\"",
+      "color": {
+        "a": 1,
+        "rgb": 54783
+      }
+    },
+    {
+      "query": "path:\"Математика/Атомарные заметки/Аксиомы\"",
+      "color": {
+        "a": 1,
+        "rgb": 11010048
+      }
+    },
+    {
+      "query": "path:\"Математика/Атомарные заметки/Определения\"",
+      "color": {
+        "a": 1,
+        "rgb": 16768256
+      }
+    },
+    {
+      "query": "path:Информатика/Фронтенд",
+      "color": {
+        "a": 1,
+        "rgb": 54783
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1.23415730337079,
+  "collapse-forces": true,
+  "centerStrength": 0.345833333333333,
+  "repelStrength": 10.5013192612137,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.17874521860402218,
+  "close": false
+}

@@ -1,0 +1,7 @@
+{
+  "bgColorEnabled": true,
+  "bgColor": "#1e1e1e",
+  "opMode": "TextMode",
+  "zoomByWheelAndGesture": true,
+  "zoomValue": 1
+}

@@ -1,0 +1,120 @@
+{
+  "main": {
+    "id": "c058ed3f5d3b5d5e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f6ffab2dfcd31f0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Информатика/C++/Другое/Практическая работа 2 курс.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3d4ad30a6a90fba1",
+    "type": "split",
+    "children": [
+      {
+        "id": "81959ba179c9462a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7aedc1025e6b31ee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4974ef117ea2c920",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "76c90e8500a27d48",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 483.5
+  },
+  "right": {
+    "id": "b93920a64cc804ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c5a90c3318f0b65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d65d307d6a8e21f0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Информатика/C++/Другое/Практическая работа 2 курс.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f77a9a08a3c5dc3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "9f6ffab2dfcd31f0",
+  "lastOpenFiles": [
+    "Информатика/C++/Другое/Домашние работы 2 курс.md",
+    "Информатика/C++/Другое/Практическая работа 2 курс.md",
+    "Информатика/C++/Другое/Практические работы 1 курс.md",
+    "Информатика/C++/Другое/Домашние работы 1 курс.md",
+    "Информатика/4. Алгоритмы/4. Численные алгоритмы/5. Алгоритм решения СЛАУ методом Гаусса.md",
+    "X-rip/ВУЗ/Численные методы.md",
+    "X-rip/Интегралы таблица.md",
+    "X-rip/Модели заданий.md",
+    "X-rip/Основная таблица тригонометрии.md",
+    "X-rip/ВУЗ/Отсутствие порядка в темах.md"
+  ]
+}

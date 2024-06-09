@@ -1,0 +1,36 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "showUnsupportedFiles": true,
+  "promptDelete": false,
+  "spellcheckLanguages": null,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A5",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 70
+  },
+  "attachmentFolderPath": "./assets/test",
+  "readableLineLength": true,
+  "foldHeading": true,
+  "showIndentGuide": true,
+  "foldIndent": true,
+  "showFrontmatter": false,
+  "strictLineBreaks": false,
+  "autoPairBrackets": true,
+  "autoPairMarkdown": true,
+  "smartIndentList": true,
+  "alwaysUpdateLinks": true,
+  "spellcheck": true,
+  "rightToLeft": false,
+  "showLineNumber": false,
+  "showInlineTitle": false,
+  "focusNewTab": true,
+  "userIgnoreFilters": [
+    "X-rip/"
+  ],
+  "useTab": true,
+  "vimMode": false,
+  "tabSize": 4
+}

@@ -1,0 +1,15 @@
+{
+  "baseFontSize": 14,
+  "enabledCssSnippets": [
+    "multi-column-markdown",
+    "admonitions",
+    "custom-admonitions.b0ac37",
+    "myStyle"
+  ],
+  "accentColor": "#7d5aff",
+  "nativeMenus": false,
+  "translucency": false,
+  "theme": "obsidian",
+  "cssTheme": "",
+  "showViewHeader": true
+}

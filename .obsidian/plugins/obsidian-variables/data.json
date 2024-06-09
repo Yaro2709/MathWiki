@@ -1,0 +1,21 @@
+{
+  "filter": "",
+  "variables": [
+    {
+      "vaultPath": "C:\\Users\\user\\OneDrive\\Obsidian\\Programming",
+      "name": "$MEDIA",
+      "value": "C:\\Users\\user\\OneDrive\\Obsidian\\Programming"
+    },
+    {
+      "vaultPath": "C:\\Users\\user\\OneDrive\\Obsidian\\Programming",
+      "name": "close",
+      "value": "close"
+    }
+  ],
+  "showApplicableVars": false,
+  "applicableVarIndexes": [
+    0,
+    1
+  ],
+  "debugMode": false
+}

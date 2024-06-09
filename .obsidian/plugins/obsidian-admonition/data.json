@@ -1,0 +1,233 @@
+{
+  "userAdmonitions": {
+    "axiom": {
+      "type": "axiom",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "lock",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Axiom.",
+      "injectColor": true,
+      "noTitle": true,
+      "copy": false
+    },
+    "proof": {
+      "type": "proof",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "book-reader",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "proof",
+      "injectColor": true,
+      "noTitle": true,
+      "copy": true
+    },
+    "theorem": {
+      "type": "theorem",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "book",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "theorem",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    },
+    "corollary": {
+      "type": "corollary",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "angle-double-right",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Corollary",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    },
+    "definition": {
+      "type": "definition",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "align-justify",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "definition",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    },
+    "geomean": {
+      "type": "geomean",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "draw-polygon",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "geomean",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    },
+    "phymean": {
+      "type": "phymean",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "bolt",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "phymean",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    },
+    "lemma": {
+      "type": "lemma",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "link",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "lemma",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    },
+    "notation": {
+      "type": "notation",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "sticky-note",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "notation",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    },
+    "example": {
+      "type": "example",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "bookmark",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "example",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "interesting": {
+      "type": "interesting",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "assistive-listening-systems",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "interesting",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "col": {
+      "type": "col",
+      "color": "255, 255, 255",
+      "icon": {
+        "name": "angle-double-right",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "col",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    },
+    "card": {
+      "type": "card",
+      "color": "255, 255, 255",
+      "icon": {
+        "name": "angle-right",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "card",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    },
+    "imgInvert": {
+      "type": "imgInvert",
+      "color": "255, 255, 255",
+      "icon": {
+        "name": "images",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "imgInvert",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    },
+    "algorithm": {
+      "type": "algorithm",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "bezier-curve",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "algorithm",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "info": {
+      "type": "info",
+      "color": "255, 255, 255",
+      "icon": {
+        "name": "info-circle",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "info",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": true,
+  "version": "10.1.1",
+  "autoCollapse": false,
+  "defaultCollapseType": "closed",
+  "injectColor": false,
+  "parseTitles": false,
+  "dropShadow": false,
+  "hideEmpty": false,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": true
+  },
+  "icons": [],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": false,
+  "msDocConverted": true,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.b0ac37"
+}

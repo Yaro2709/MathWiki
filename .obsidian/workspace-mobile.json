@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "c058ed3f5d3b5d5e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2cdd056de1edc778",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f6ffab2dfcd31f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Математика/Атомарные заметки/Аксиомы/Аксиома бесконечности.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "88d9486129c165a6",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1bfab8cc722889b8",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "30252cd1665f2b26",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "811669f83a5fea77",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "34278c99de05e5ac",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Математика/Атомарные заметки/Аксиомы/Аксиома бесконечности.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "1a74cf69bb5c11f4",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Математика/Атомарные заметки/Аксиомы/Аксиома бесконечности.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "9f6ffab2dfcd31f0",
+  "lastOpenFiles": [
+    "Математика/Функции/1. Понятие функция и отображение. Свойства функций.md",
+    "Математика/Атомарные заметки/Теоремы/Косинус разности аргументов.md",
+    "Математика/Тригонометрия/5. Преобразования тригонометрических выражений.md",
+    "Математика/Дискретная математика/1. Бинарные отношения.md",
+    "Информатика/C++/Другое/Практическая работа 2 курс.md",
+    "Информатика/C++/Другое/Домашние работы 2 курс.md",
+    "Информатика/C++/Другое/Практические работы 1 курс.md",
+    "Информатика/C++/Другое/Домашние работы 1 курс.md",
+    "Информатика/4. Алгоритмы/4. Численные алгоритмы/5. Алгоритм решения СЛАУ методом Гаусса.md",
+    "X-rip/ВУЗ/Численные методы.md"
+  ]
+}

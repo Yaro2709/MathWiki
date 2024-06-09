@@ -1,0 +1,82 @@
+{
+  "statusBar": [
+    {
+      "prefix": "",
+      "suffix": " слов",
+      "metric": {
+        "type": 0,
+        "counter": 0
+      }
+    },
+    {
+      "prefix": " ",
+      "suffix": " символов",
+      "metric": {
+        "type": 0,
+        "counter": 1
+      }
+    }
+  ],
+  "altBar": [
+    {
+      "prefix": "",
+      "suffix": " файлов",
+      "metric": {
+        "type": 2,
+        "counter": 6
+      }
+    },
+    {
+      "prefix": " ",
+      "suffix": " слов",
+      "metric": {
+        "type": 2,
+        "counter": 0
+      }
+    },
+    {
+      "prefix": " ",
+      "suffix": " символов",
+      "metric": {
+        "type": 2,
+        "counter": 1
+      }
+    },
+    {
+      "prefix": " ",
+      "suffix": " страниц",
+      "metric": {
+        "type": 2,
+        "counter": 5
+      }
+    },
+    {
+      "prefix": " ",
+      "suffix": " слов в день",
+      "metric": {
+        "type": 1,
+        "counter": 0
+      }
+    },
+    {
+      "prefix": " ",
+      "suffix": " символов в день",
+      "metric": {
+        "type": 1,
+        "counter": 1
+      }
+    },
+    {
+      "prefix": " ",
+      "suffix": " страниц в день",
+      "metric": {
+        "type": 1,
+        "counter": 5
+      }
+    }
+  ],
+  "countComments": true,
+  "collectStats": true,
+  "displaySectionCounts": false,
+  "pageWords": 300
+}
