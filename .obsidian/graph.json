@@ -8,13 +8,6 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"Математика/Теория множеств\"",
-      "color": {
-        "a": 1,
-        "rgb": 15444992
-      }
-    },
-    {
       "query": "path:\"Математика/Атомарные заметки/Теоремы\"",
       "color": {
         "a": 1,
@@ -34,6 +27,20 @@
         "a": 1,
         "rgb": 49758
       }
+    },
+    {
+      "query": "path:\"Математика/Математическая методология\"",
+      "color": {
+        "a": 1,
+        "rgb": 15445760
+      }
+    },
+    {
+      "query": "path:\"Математика/Теория множеств\"",
+      "color": {
+        "a": 1,
+        "rgb": 15445760
+      }
     }
   ],
   "collapse-display": true,
@@ -46,6 +53,6 @@
   "repelStrength": 10.5013192612137,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.2726859917360128,
-  "close": false
+  "scale": 0.4159979812035045,
+  "close": true
 }
