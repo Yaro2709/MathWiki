@@ -8,6 +8,13 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "path:\"Математика/Атомарные заметки/Схемы\"",
+      "color": {
+        "a": 1,
+        "rgb": 7091159
+      }
+    },
+    {
       "query": "path:\"Математика/Атомарные заметки/Теоремы\"",
       "color": {
         "a": 1,
@@ -60,6 +67,6 @@
   "repelStrength": 10.5013192612137,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.27268599173601366,
+  "scale": 0.17874521860402112,
   "close": true
 }
