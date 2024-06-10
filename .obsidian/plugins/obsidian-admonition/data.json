@@ -207,6 +207,19 @@
       "injectColor": true,
       "noTitle": false,
       "copy": true
+    },
+    "concepts": {
+      "type": "concepts",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "bell",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "concepts",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
     }
   },
   "syntaxHighlight": false,
