@@ -3,6 +3,121 @@
     {
       "name": "",
       "relativePath": "/"
+    },
+    {
+      "name": "assets",
+      "relativePath": "assets"
+    },
+    {
+      "name": "Математика",
+      "relativePath": "Математика"
+    },
+    {
+      "name": "Mathematics",
+      "relativePath": "assets/Mathematics"
+    },
+    {
+      "name": "Математическая методология",
+      "relativePath": "Математика/Математическая методология"
+    },
+    {
+      "name": "Общая алгебра",
+      "relativePath": "Математика/Общая алгебра"
+    },
+    {
+      "name": "Атомарные заметки",
+      "relativePath": "Математика/Атомарные заметки"
+    },
+    {
+      "name": "Теория множеств",
+      "relativePath": "Математика/Теория множеств"
+    },
+    {
+      "name": "EulerСircles",
+      "relativePath": "assets/Mathematics/EulerСircles"
+    },
+    {
+      "name": "1. Основные понятия",
+      "relativePath": "Математика/Общая алгебра/1. Основные понятия"
+    },
+    {
+      "name": "1. Основы теории множеств",
+      "relativePath": "Математика/Теория множеств/1. Основы теории множеств"
+    },
+    {
+      "name": "Аксиомы",
+      "relativePath": "Математика/Атомарные заметки/Аксиомы"
+    },
+    {
+      "name": "2. Мощность множеств",
+      "relativePath": "Математика/Теория множеств/2. Мощность множеств"
+    },
+    {
+      "name": "Генераторы",
+      "relativePath": "Математика/Атомарные заметки/Генераторы"
+    },
+    {
+      "name": "Алгоритмы",
+      "relativePath": "Математика/Атомарные заметки/Алгоритмы"
+    },
+    {
+      "name": "Геометрический смысл",
+      "relativePath": "Математика/Атомарные заметки/Геометрический смысл"
+    },
+    {
+      "name": "Определения",
+      "relativePath": "Математика/Атомарные заметки/Определения"
+    },
+    {
+      "name": "Примеры",
+      "relativePath": "Математика/Атомарные заметки/Примеры"
+    },
+    {
+      "name": "Концепции",
+      "relativePath": "Математика/Атомарные заметки/Концепции"
+    },
+    {
+      "name": "Свойства",
+      "relativePath": "Математика/Атомарные заметки/Свойства"
+    },
+    {
+      "name": "Схемы",
+      "relativePath": "Математика/Атомарные заметки/Схемы"
+    },
+    {
+      "name": "Теоремы",
+      "relativePath": "Математика/Атомарные заметки/Теоремы"
+    },
+    {
+      "name": "Следствия",
+      "relativePath": "Математика/Атомарные заметки/Следствия"
+    }
+  ],
+  "nonMdFiles": [
+    {
+      "name": "Difference.png",
+      "basename": "Difference",
+      "relativePath": "assets/Mathematics/EulerСircles/Difference.png"
+    },
+    {
+      "name": "Addition.png",
+      "basename": "Addition",
+      "relativePath": "assets/Mathematics/EulerСircles/Addition.png"
+    },
+    {
+      "name": "Intersection.png",
+      "basename": "Intersection",
+      "relativePath": "assets/Mathematics/EulerСircles/Intersection.png"
+    },
+    {
+      "name": "SimDifference.png",
+      "basename": "SimDifference",
+      "relativePath": "assets/Mathematics/EulerСircles/SimDifference.png"
+    },
+    {
+      "name": "Union.png",
+      "basename": "Union",
+      "relativePath": "assets/Mathematics/EulerСircles/Union.png"
     }
   ]
 }
