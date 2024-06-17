@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"Математика/Атомарные заметки/Схемы\"",
@@ -74,6 +74,6 @@
   "repelStrength": 10.5013192612137,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.9681619554185509,
+  "scale": 0.2726859917360087,
   "close": false
 }
