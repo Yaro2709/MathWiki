@@ -18,6 +18,42 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "51a16f32ac9b7c26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Математика/Атомарные заметки/Концепции/Концепция функции.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04dbd5a45690f881",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Математика/Атомарные заметки/Концепции/Концепция функции.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93d16647307a1055",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Математика/Общая алгебра/1. Основные понятия/8. Специальные типы бинарных отношений, связанные с функциями.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }

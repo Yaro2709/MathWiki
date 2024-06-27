@@ -13,12 +13,16 @@
       "relativePath": "Математика"
     },
     {
+      "name": "Mathematics",
+      "relativePath": "assets/Mathematics"
+    },
+    {
       "name": "Атомарные заметки",
       "relativePath": "Математика/Атомарные заметки"
     },
     {
-      "name": "Mathematics",
-      "relativePath": "assets/Mathematics"
+      "name": "Математическая методология",
+      "relativePath": "Математика/Математическая методология"
     },
     {
       "name": "Общая алгебра",
@@ -29,12 +33,52 @@
       "relativePath": "Математика/Теория множеств"
     },
     {
-      "name": "Математическая методология",
-      "relativePath": "Математика/Математическая методология"
-    },
-    {
       "name": "EulerСircles",
       "relativePath": "assets/Mathematics/EulerСircles"
+    },
+    {
+      "name": "Аксиомы",
+      "relativePath": "Математика/Атомарные заметки/Аксиомы"
+    },
+    {
+      "name": "Алгоритмы",
+      "relativePath": "Математика/Атомарные заметки/Алгоритмы"
+    },
+    {
+      "name": "Генераторы",
+      "relativePath": "Математика/Атомарные заметки/Генераторы"
+    },
+    {
+      "name": "Геометрический смысл",
+      "relativePath": "Математика/Атомарные заметки/Геометрический смысл"
+    },
+    {
+      "name": "Концепции",
+      "relativePath": "Математика/Атомарные заметки/Концепции"
+    },
+    {
+      "name": "Определения",
+      "relativePath": "Математика/Атомарные заметки/Определения"
+    },
+    {
+      "name": "Примеры",
+      "relativePath": "Математика/Атомарные заметки/Примеры"
+    },
+    {
+      "name": "Свойства",
+      "relativePath": "Математика/Атомарные заметки/Свойства"
+    },
+    {
+      "name": "Следствия",
+      "relativePath": "Математика/Атомарные заметки/Следствия"
+    },
+    {
+      "name": "Схемы",
+      "relativePath": "Математика/Атомарные заметки/Схемы"
+    },
+    {
+      "name": "Теоремы",
+      "relativePath": "Математика/Атомарные заметки/Теоремы"
     },
     {
       "name": "1. Основные понятия",
@@ -47,62 +91,18 @@
     {
       "name": "2. Мощность множеств",
       "relativePath": "Математика/Теория множеств/2. Мощность множеств"
-    },
-    {
-      "name": "Аксиомы",
-      "relativePath": "Математика/Атомарные заметки/Аксиомы"
-    },
-    {
-      "name": "Генераторы",
-      "relativePath": "Математика/Атомарные заметки/Генераторы"
-    },
-    {
-      "name": "Концепции",
-      "relativePath": "Математика/Атомарные заметки/Концепции"
-    },
-    {
-      "name": "Определения",
-      "relativePath": "Математика/Атомарные заметки/Определения"
-    },
-    {
-      "name": "Геометрический смысл",
-      "relativePath": "Математика/Атомарные заметки/Геометрический смысл"
-    },
-    {
-      "name": "Алгоритмы",
-      "relativePath": "Математика/Атомарные заметки/Алгоритмы"
-    },
-    {
-      "name": "Следствия",
-      "relativePath": "Математика/Атомарные заметки/Следствия"
-    },
-    {
-      "name": "Свойства",
-      "relativePath": "Математика/Атомарные заметки/Свойства"
-    },
-    {
-      "name": "Схемы",
-      "relativePath": "Математика/Атомарные заметки/Схемы"
-    },
-    {
-      "name": "Теоремы",
-      "relativePath": "Математика/Атомарные заметки/Теоремы"
-    },
-    {
-      "name": "Примеры",
-      "relativePath": "Математика/Атомарные заметки/Примеры"
     }
   ],
   "nonMdFiles": [
     {
-      "name": "Addition.png",
-      "basename": "Addition",
-      "relativePath": "assets/Mathematics/EulerСircles/Addition.png"
-    },
-    {
       "name": "Difference.png",
       "basename": "Difference",
       "relativePath": "assets/Mathematics/EulerСircles/Difference.png"
+    },
+    {
+      "name": "Addition.png",
+      "basename": "Addition",
+      "relativePath": "assets/Mathematics/EulerСircles/Addition.png"
     },
     {
       "name": "Intersection.png",
@@ -110,14 +110,14 @@
       "relativePath": "assets/Mathematics/EulerСircles/Intersection.png"
     },
     {
-      "name": "Union.png",
-      "basename": "Union",
-      "relativePath": "assets/Mathematics/EulerСircles/Union.png"
-    },
-    {
       "name": "SimDifference.png",
       "basename": "SimDifference",
       "relativePath": "assets/Mathematics/EulerСircles/SimDifference.png"
+    },
+    {
+      "name": "Union.png",
+      "basename": "Union",
+      "relativePath": "assets/Mathematics/EulerСircles/Union.png"
     }
   ]
 }
