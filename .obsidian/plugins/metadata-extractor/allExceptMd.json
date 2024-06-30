@@ -33,8 +33,16 @@
       "relativePath": "Математика/Теория множеств"
     },
     {
+      "name": "Топология",
+      "relativePath": "Математика/Топология"
+    },
+    {
       "name": "EulerСircles",
       "relativePath": "assets/Mathematics/EulerСircles"
+    },
+    {
+      "name": "GeneralAlgebra",
+      "relativePath": "assets/Mathematics/GeneralAlgebra"
     },
     {
       "name": "Аксиомы",
@@ -53,8 +61,16 @@
       "relativePath": "Математика/Атомарные заметки/Геометрический смысл"
     },
     {
+      "name": "Интересно",
+      "relativePath": "Математика/Атомарные заметки/Интересно"
+    },
+    {
       "name": "Концепции",
       "relativePath": "Математика/Атомарные заметки/Концепции"
+    },
+    {
+      "name": "Лемма",
+      "relativePath": "Математика/Атомарные заметки/Лемма"
     },
     {
       "name": "Определения",
@@ -85,24 +101,40 @@
       "relativePath": "Математика/Общая алгебра/1. Основные понятия"
     },
     {
+      "name": "2. Аксиоматика и числовые системы",
+      "relativePath": "Математика/Общая алгебра/2. Аксиоматика и числовые системы"
+    },
+    {
       "name": "1. Основы теории множеств",
       "relativePath": "Математика/Теория множеств/1. Основы теории множеств"
     },
     {
       "name": "2. Мощность множеств",
       "relativePath": "Математика/Теория множеств/2. Мощность множеств"
+    },
+    {
+      "name": "3. Аксиоматика множеств",
+      "relativePath": "Математика/Теория множеств/3. Аксиоматика множеств"
+    },
+    {
+      "name": "4. Упорядоченные множества",
+      "relativePath": "Математика/Теория множеств/4. Упорядоченные множества"
+    },
+    {
+      "name": "1. Числовые множества",
+      "relativePath": "Математика/Топология/1. Числовые множества"
     }
   ],
   "nonMdFiles": [
     {
-      "name": "Difference.png",
-      "basename": "Difference",
-      "relativePath": "assets/Mathematics/EulerСircles/Difference.png"
-    },
-    {
       "name": "Addition.png",
       "basename": "Addition",
       "relativePath": "assets/Mathematics/EulerСircles/Addition.png"
+    },
+    {
+      "name": "Difference.png",
+      "basename": "Difference",
+      "relativePath": "assets/Mathematics/EulerСircles/Difference.png"
     },
     {
       "name": "Intersection.png",
@@ -118,6 +150,11 @@
       "name": "Union.png",
       "basename": "Union",
       "relativePath": "assets/Mathematics/EulerСircles/Union.png"
+    },
+    {
+      "name": "The_four_types_of_binary_relations.png",
+      "basename": "The_four_types_of_binary_relations",
+      "relativePath": "assets/Mathematics/GeneralAlgebra/The_four_types_of_binary_relations.png"
     }
   ]
 }
