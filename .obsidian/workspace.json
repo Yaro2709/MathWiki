@@ -11,8 +11,12 @@
             "id": "b8e314e244566e10",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Математика/Топология/1. Числовые множества/2. Максимальный, минимальный элемент и супремум, инфимум.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Математика/Топология/1. Числовые множества/2. Максимальный, минимальный элемент и супремум, инфимум.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Математика/Топология/1. Числовые множества/2. Максимальный, минимальный элемент и супремум, инфимум.md"
+              }
             }
           },
           {
@@ -108,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Математика/Топология/1. Числовые множества/2. Максимальный, минимальный элемент и супремум, инфимум.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
