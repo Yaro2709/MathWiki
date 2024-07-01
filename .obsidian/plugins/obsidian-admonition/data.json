@@ -220,6 +220,19 @@
       "injectColor": true,
       "noTitle": false,
       "copy": true
+    },
+    "comment": {
+      "type": "comment",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "readme",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "comment",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
     }
   },
   "syntaxHighlight": false,
