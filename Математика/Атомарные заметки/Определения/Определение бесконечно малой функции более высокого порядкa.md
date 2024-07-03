@@ -1,0 +1,15 @@
+> [!info]
+> Тэги: #Определение #Математический_анализ   
+> 
+> Использует: *-*
+> Примеры: *-*
+> 
+> Типы: *-*
+> Свойства: *-*
+> Конструкции: *-*
+> 
+> Эквивалентности: *-*
+> Обобщения: *-*
+
+> [!definition]+ Определение бесконечно малой функции более высокого порядкa
+> Рассмотрим две бесконечно малые функции $y = \alpha(x):X_1 \subset \mathbb{R^{\pm\infty}}\rightarrow Y_1 \subset \mathbb{R^{\pm\infty}}$ и $y = \beta(x):X_2 \subset \mathbb{R^{\pm\infty}}\rightarrow Y_2 \subset \mathbb{R^{\pm\infty}}$. Пусть $\displaystyle\lim_{x\to x_0}\alpha(x) = \lim_{x\to x_0}\beta(x) = 0$. Тогда если $\displaystyle\lim_{x\to x_0}\frac{\alpha(x)}{\beta(x)} = \infty$, то $\beta(x)$ называют бесконечно малой более высокого порядка малости, чем $\alpha(x)$ и обозначается $\beta(x)=o\Big(\alpha(x)\Big)$
