@@ -233,6 +233,19 @@
       "injectColor": true,
       "noTitle": false,
       "copy": true
+    },
+    "property": {
+      "type": "property",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "calculator",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "property",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
     }
   },
   "syntaxHighlight": false,
