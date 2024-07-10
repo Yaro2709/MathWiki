@@ -1,5 +1,18 @@
 {
   "userAdmonitions": {
+    "concepts": {
+      "type": "concepts",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "bell",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "concepts",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    },
     "axiom": {
       "type": "axiom",
       "color": "125, 90, 255",
@@ -13,17 +26,43 @@
       "noTitle": true,
       "copy": false
     },
-    "proof": {
-      "type": "proof",
+    "definition": {
+      "type": "definition",
       "color": "125, 90, 255",
       "icon": {
-        "name": "book-reader",
+        "name": "align-justify",
         "type": "font-awesome"
       },
       "command": false,
-      "title": "proof",
+      "title": "definition",
       "injectColor": true,
-      "noTitle": true,
+      "noTitle": false,
+      "copy": true
+    },
+    "notation": {
+      "type": "notation",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "sticky-note",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "notation",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    },
+    "property": {
+      "type": "property",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "calculator",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "property",
+      "injectColor": true,
+      "noTitle": false,
       "copy": true
     },
     "theorem": {
@@ -52,18 +91,70 @@
       "noTitle": false,
       "copy": true
     },
-    "definition": {
-      "type": "definition",
+    "lemma": {
+      "type": "lemma",
       "color": "125, 90, 255",
       "icon": {
-        "name": "align-justify",
+        "name": "link",
         "type": "font-awesome"
       },
       "command": false,
-      "title": "definition",
+      "title": "lemma",
       "injectColor": true,
       "noTitle": false,
       "copy": true
+    },
+    "proof": {
+      "type": "proof",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "book-reader",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "proof",
+      "injectColor": true,
+      "noTitle": true,
+      "copy": true
+    },
+    "comment": {
+      "type": "comment",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "readme",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "comment",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    },
+    "algorithm": {
+      "type": "algorithm",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "bezier-curve",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "algorithm",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "example": {
+      "type": "example",
+      "color": "125, 90, 255",
+      "icon": {
+        "name": "bookmark",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "example",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
     },
     "geomean": {
       "type": "geomean",
@@ -90,45 +181,6 @@
       "injectColor": true,
       "noTitle": false,
       "copy": true
-    },
-    "lemma": {
-      "type": "lemma",
-      "color": "125, 90, 255",
-      "icon": {
-        "name": "link",
-        "type": "font-awesome"
-      },
-      "command": false,
-      "title": "lemma",
-      "injectColor": true,
-      "noTitle": false,
-      "copy": true
-    },
-    "notation": {
-      "type": "notation",
-      "color": "125, 90, 255",
-      "icon": {
-        "name": "sticky-note",
-        "type": "font-awesome"
-      },
-      "command": false,
-      "title": "notation",
-      "injectColor": true,
-      "noTitle": false,
-      "copy": true
-    },
-    "example": {
-      "type": "example",
-      "color": "125, 90, 255",
-      "icon": {
-        "name": "bookmark",
-        "type": "font-awesome"
-      },
-      "command": false,
-      "title": "example",
-      "injectColor": true,
-      "noTitle": false,
-      "copy": false
     },
     "interesting": {
       "type": "interesting",
@@ -182,19 +234,6 @@
       "noTitle": false,
       "copy": true
     },
-    "algorithm": {
-      "type": "algorithm",
-      "color": "125, 90, 255",
-      "icon": {
-        "name": "bezier-curve",
-        "type": "font-awesome"
-      },
-      "command": false,
-      "title": "algorithm",
-      "injectColor": true,
-      "noTitle": false,
-      "copy": false
-    },
     "info": {
       "type": "info",
       "color": "255, 255, 255",
@@ -204,45 +243,6 @@
       },
       "command": false,
       "title": "info",
-      "injectColor": true,
-      "noTitle": false,
-      "copy": true
-    },
-    "concepts": {
-      "type": "concepts",
-      "color": "125, 90, 255",
-      "icon": {
-        "name": "bell",
-        "type": "font-awesome"
-      },
-      "command": false,
-      "title": "concepts",
-      "injectColor": true,
-      "noTitle": false,
-      "copy": true
-    },
-    "comment": {
-      "type": "comment",
-      "color": "125, 90, 255",
-      "icon": {
-        "name": "readme",
-        "type": "font-awesome"
-      },
-      "command": false,
-      "title": "comment",
-      "injectColor": true,
-      "noTitle": false,
-      "copy": true
-    },
-    "property": {
-      "type": "property",
-      "color": "125, 90, 255",
-      "icon": {
-        "name": "calculator",
-        "type": "font-awesome"
-      },
-      "command": false,
-      "title": "property",
       "injectColor": true,
       "noTitle": false,
       "copy": true
