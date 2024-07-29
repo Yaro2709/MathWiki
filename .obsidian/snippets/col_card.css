@@ -1,0 +1,70 @@
+/* НАВИГАЦИЯ: 
+	{IDs_0000} Название
+	{IDs_0001} Цвет
+	{IDs_0002} Отступы
+	{IDs_0003} Колонки
+	{IDs_0004} Мобильные устройства
+*/
+
+/*{IDs_0000} Название*/
+.callout[data-callout="col"] { --callout-color: 255, 255, 255; --callout-icon: "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"angle-double-right\" class=\"svg-inline--fa fa-angle-double-right fa-w-14\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><path fill=\"currentColor\" d=\"M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34zm192-34l-136-136c-9.4-9.4-24.6-9.4-33.9 0l-22.6 22.6c-9.4 9.4-9.4 24.6 0 33.9l96.4 96.4-96.4 96.4c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l136-136c9.4-9.2 9.4-24.4 0-33.8z\"></path></svg>"; }
+.callout[data-callout="card"] { --callout-color: 255, 255, 255; --callout-icon: "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"angle-right\" class=\"svg-inline--fa fa-angle-right fa-w-8\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 512\"><path fill=\"currentColor\" d=\"M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z\"></path></svg>"; }
+
+/*{IDs_0001} Цвет*/
+/*отключаем фон*/
+.callout[data-callout="col"],
+.callout[data-callout="card"] {
+    background-color: rgba(0, 0, 0, 0); 
+}
+/*отключаем цвет*/
+.theme-dark {
+	.callout[data-callout="col"] .callout-title,
+	.callout[data-callout="card"] .callout-title {
+		color: rgb(245,245,245); 
+	}
+}
+/*отключаем цвет*/
+.callout[data-callout="col"] .callout-title,
+.callout[data-callout="card"] .callout-title {
+    color: rgb(0,0,0); 
+}
+
+/*{IDs_0002} Отступы*/
+/*отступ для главного текста*/
+.callout[data-callout="col"] .callout-title {
+    margin-bottom: 10px; 
+}
+/*отступ обнуляем*/
+.callout[data-callout="card"] .callout-title {
+    margin-bottom: 0px; 
+}
+/*убрать прыжки при переходе с чтенья на редактор*/
+.callout[data-callout="card"] {
+    margin: 0; 
+}
+
+/*{IDs_0003} Колонки*/
+/*Формирование колонок*/
+.callout[data-callout="col"] .callout-content {
+    -webkit-column-count: 2; 		/*кол колонок*/
+	column-rule: 1px solid #7D5AFF; /*линия по центру*/
+	column-fill: balance;
+}
+
+.callout[data-callout="card"] .callout-content {
+    -webkit-column-count: auto;
+}
+
+/*{IDs_0004} Мобильные устройства*/
+/*для мобилок*/
+@media screen and (max-width: 1000px) {
+	.callout[data-callout="col"],
+	.callout[data-callout="card"] {
+		padding: 0;
+	}
+	
+	.callout[data-callout="card"] ul, 
+	.callout[data-callout="card"] ol {
+		padding-inline-start: 1.25em;
+	}
+}

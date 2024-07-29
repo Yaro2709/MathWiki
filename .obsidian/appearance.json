@@ -3,8 +3,16 @@
   "enabledCssSnippets": [
     "multi-column-markdown",
     "admonitions",
+    "myStyle",
+    "imgInvert",
+    "info",
+    "colCard",
     "custom-admonitions.b0ac37",
-    "myStyle"
+    "custom_callouts",
+    "col_card",
+    "custom_callouts_math",
+    "img_invert",
+    "my_style"
   ],
   "accentColor": "#7d5aff",
   "nativeMenus": false,
