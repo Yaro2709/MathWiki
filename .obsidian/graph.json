@@ -83,6 +83,13 @@
         "a": 1,
         "rgb": 15445760
       }
+    },
+    {
+      "query": "path:\"Математика/Атомарные заметки/Типы\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16514816
+      }
     }
   ],
   "collapse-display": false,
@@ -95,6 +102,6 @@
   "repelStrength": 10.5013192612137,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.06455531499684088,
+  "scale": 0.15024111371691734,
   "close": false
 }

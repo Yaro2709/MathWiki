@@ -246,6 +246,19 @@
       "injectColor": true,
       "noTitle": false,
       "copy": true
+    },
+    "type": {
+      "type": "type",
+      "color": "125, 90, 255",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-book-type"
+      },
+      "command": false,
+      "title": "type",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
     }
   },
   "syntaxHighlight": false,
